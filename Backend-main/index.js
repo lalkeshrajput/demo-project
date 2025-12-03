@@ -29,7 +29,7 @@ const createCategory = async () => {
 
 const createItem = async (ownerId, categoryId) => {
   const item = await Item.create({
-    title: "Wooden Dinning Table",
+    title: "Wooden Dining Table",
     description: "Solid wood dining table with 4 chairs",
     owner_id: ownerId,
     category: categoryId,
